@@ -26,7 +26,7 @@ Project : spring-boot-course
         
     - launch xamp and start mysql and note the port.
         
-- ####Configuration in application.properties file
+ - ####Configuration in application.properties file
   
 - `spring.datasource.url=jdbc:mysql://localhost:3306/customer_database useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC`
 - `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`
