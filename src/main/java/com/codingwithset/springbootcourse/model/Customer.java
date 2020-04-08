@@ -1,17 +1,10 @@
 package com.codingwithset.springbootcourse.model;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.springframework.context.annotation.Primary;
 
 import javax.persistence.*;
-import java.io.StringReader;
 
-//@Setter
-//@Getter
-//@NoArgsConstructor
+
 @Entity
 @Table(name = "customer")
 @Data

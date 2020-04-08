@@ -4,16 +4,11 @@ import com.codingwithset.springbootcourse.model.Customer;
 import com.codingwithset.springbootcourse.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Optional;
-
-import org.springframework.data.domain.Pageable;
 
 @RestController
 @RequestMapping(value = "/api/customers")
