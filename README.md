@@ -17,10 +17,10 @@ Project : spring-boot-course
             
             
        - #### command to execute the jar file
--java -jar -Dserver.port=80 spring-boot-course.jar{jar path}
+- java -jar -Dserver.port=80 spring-boot-course.jar{jar path}
         
-        - #### compile the jar for deployment with maven
-        - run this command in terminal: mvn package spring-boot:repackage
+- #### compile the jar for deployment with maven
+- run this command in terminal: mvn package spring-boot:repackage
         
         
         
