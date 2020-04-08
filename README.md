@@ -26,6 +26,16 @@ Project : spring-boot-course
  #### launch xamp and start mysql and note the port(3306).
         
 
+Dependencies used
+------------------------------------------------------
+- `Spring Web `
+- `springfox-swagger-ui : https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui`
+- `springfox-swagger2 : https://mvnrepository.com/artifact/io.springfox/springfox-swagger2`
+- `mysql`
+-  `lombok`
+-  `data-jpa`
+    
+- you can also see other dependenciew in `pom.xml` file.
 
 
 Configuration in application.properties file
