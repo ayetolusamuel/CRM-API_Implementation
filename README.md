@@ -7,16 +7,15 @@ Project : spring-boot-course
   - Swagger - used for Documenting Rest API’s.
 - It is RESTful Web Service.
 - Implemented CRUD operations.
-- Implemented Caching using Redis.
 - Github link : https://github.com/ayetolusamuel/spring-boot-course.git
 
 
     
   - #### Starting server[xamp]
-    - launch xamp and start mysql and note the port.
+  - launch xamp and start mysql and note the port.
             
             
-       - #### command to execute the jar file
+- #### command to execute the jar file
 - java -jar -Dserver.port=80 spring-boot-course.jar{jar path}
         
 - #### compile the jar for deployment with maven
@@ -24,7 +23,7 @@ Project : spring-boot-course
         
         
         
-    - launch xamp and start mysql and note the port.
+- launch xamp and start mysql and note the port(3306).
         
 
 
