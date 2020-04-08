@@ -26,14 +26,15 @@ Project : spring-boot-course
         
     - launch xamp and start mysql and note the port.
         
-  - ####Configuration in application.properties file
-    - `spring.datasource.url=jdbc:mysql://localhost:3306/customer_database?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC`
-    - `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`
-     - `spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect`
-      - `spring.jpa.hibernate.ddl-auto = update`
-    -  `server.port = 8080`
+- ####Configuration in application.properties file
+  
+- `spring.datasource.url=jdbc:mysql://localhost:3306/customer_database useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC`
+- `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`
+- `spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect`
+- `spring.jpa.hibernate.ddl-auto = update`
+-  `server.port = 8080`
     
-     - you can also see other properties in `application.properties` file.
+- you can also see other properties in `application.properties` file.
         
 Implementing mockaroo [for mock data]
 --------------------------------------------------
