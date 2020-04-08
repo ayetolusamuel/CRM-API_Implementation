@@ -11,19 +11,19 @@ Project : spring-boot-course
 
 
     
-  - #### Starting server[xamp]
+   #### Starting server[xamp]
   - launch xamp and start mysql and note the port.
             
             
-- #### command to execute the jar file
+ #### command to execute the jar file
 - java -jar -Dserver.port=80 spring-boot-course.jar{jar path}
         
-- #### compile the jar for deployment with maven
+ #### compile the jar for deployment with maven
 - run this command in terminal: mvn package spring-boot:repackage
         
         
         
-- #### launch xamp and start mysql and note the port(3306).
+ #### launch xamp and start mysql and note the port(3306).
         
 
 
