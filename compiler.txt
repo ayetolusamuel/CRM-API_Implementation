@@ -1,0 +1,5 @@
+//use this command in terminal via Intellij IDE to generate jar file to be deploy to cloud.
+mvn package spring-boot:repackage
+
+//command to execute the jar file
+java -jar -Dserver.port=80 spring-boot-course.jar
