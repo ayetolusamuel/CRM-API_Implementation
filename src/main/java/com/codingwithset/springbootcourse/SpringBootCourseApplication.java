@@ -19,7 +19,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SpringBootCourseApplication {
 
 
-    //this handle the documentation
+    //this handle swagger api documentation
     @Bean
     public Docket mDocket() {
         return new Docket(DocumentationType.SWAGGER_2)

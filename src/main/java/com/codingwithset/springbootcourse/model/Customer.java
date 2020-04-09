@@ -14,7 +14,7 @@ public class Customer {
     private int id;
     private String name;
     private String email;
-    private String phone;
+    private String phone_number;
     private String city;
     private String state;
     private String country;
