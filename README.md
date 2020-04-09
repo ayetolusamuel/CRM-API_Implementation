@@ -10,6 +10,11 @@ Project : spring-boot-course
 - Github link : https://github.com/ayetolusamuel/spring-boot-course.git
 
 
+
+
+### Video demo: https://www.youtube.com/watch?v=GqxUq3doGrU 
+
+
     
    #### Starting server[xamp]
   - launch xamp and start mysql and note the port.
