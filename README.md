@@ -1,7 +1,7 @@
 Project : spring-boot-course
 -----------------------------------------------
 - Tech Stack
-  - Spring Boot.
+  - Mockaroo
   - myqsl -  Database.
   - Spring Data JPA - uses Hibernate as JPA implementation.
   - Swagger - used for Documenting Rest API’s.
